@@ -1,0 +1,33 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    background-color: crimson;
+}
+
+form {
+    padding: 5px;
+    width:80%;
+    margin-inline: auto;
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+
+#id-number {
+    background-color: beige;
+    border-radius: 1rem;
+}
+
+button {
+    border-radius: 1rem;
+    background-color: peachpuff;
+}
+
+button:hover {
+        background-color: brown;
+}
