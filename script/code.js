@@ -16,12 +16,18 @@
 // eg
 let sentence = ('0611250104083')
 // let sentence = 'I love programming'
-console.log(sentence.slice(0, 6));
-console.log(sentence.slice(6, 10));
+let birthDate = function() {
+    console.log(sentence.slice(0, 6));
+} 
 
-
+let identifyGender = function() {
+    console.log(sentence.slice(6, 10));
+}
 
 function gender() {
-    if (sentence.slice < 5000)
+    if (gender > 5000)
         console.log(Male);
+    else {
+        console.log(Female);
+    }
 }
