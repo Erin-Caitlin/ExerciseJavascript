@@ -1,27 +1,19 @@
-// let IdNumber = +document.querySelector('#idNumber')
-// let CheckInformation = document.querySelector('#check-info')
+let userInput = document.getElementById('id-number')
+let btn1 = document.getElementById('btn1')
+let btn2 = document.getElementById('btn2')
+let userOutput = document.getElementById('result')
 
-// function IDdetails() {
-//    let result = (+IdNumber.value === 13)
-//    console.log(result);
-//    return result
-// }
-// IDdetails(+IdNumber)
-// CheckInformation.addEventListener('click', () => {
-//     if (IdNumber
-// })
+function getDateOfBirth() {
+    userOutput.innerHTML = userInput.value;
+}
 
-// let details = IdNumber.value
-
-// eg
-let sentence = ('0611250104083')
-// let sentence = 'I love programming'
-let birthDate = function() {
-    console.log(sentence.slice(0, 6));
-} 
+ let dateOfBirth = function() {
+    console.log(getDateOfBirth.slice(0, 6)); 
+}
+btn1.addEventListener('click', dateOfBirth)
 
 let identifyGender = function() {
-    console.log(sentence.slice(6, 10));
+    console.log(getDateOfBirth.slice(6, 10));
 }
 
 function gender() {
@@ -31,3 +23,4 @@ function gender() {
         console.log(Female);
     }
 }
+btn2.addEventListener('click', gender)
